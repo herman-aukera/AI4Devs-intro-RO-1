@@ -11,7 +11,7 @@ You are a developer assistant. I'm working on a frontend coding challenge for th
    - A “Reverse” button that only appears when the input has more than 3 characters.
 
 2. A file `script.js`:
-   - JavaScript logic to reverse the string and display the result in real time.
+   - JavaScript logic to reverse the string and display the result **only when the button is clicked**.
    - Show/hide the button based on input length.
 
 3. A file `prompts.md`:
