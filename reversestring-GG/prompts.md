@@ -1,34 +1,41 @@
 # Prompt Used
 
-You are a developer assistant. I'm working on a frontend coding challenge for the AI4Devs bootcamp.
+You are a frontend AI coding assistant. Help me generate a small web project with clean code and modular separation.
 
-🎯 Your task: Generate a full project folder containing:
+**Task**: Build a minimal client-side app that reverses a string input by the user.
 
-1. A file `index.html`:
-   - With an input field to type a string.
-   - Linked to an external `script.js`.
-   - Includes a `<div>` to show the reversed string.
-   - A “Reverse” button that only appears when the input has more than 3 characters.
+### Files required:
+1. `index.html`:
+   - Input field for typing a string.
+   - A `<button>` labeled "Reverse" (only visible when input length > 3).
+   - A `<div>` that displays the reversed string.
+   - Link to external `script.js`.
+   - Minimal styling inline OR Tailwind-friendly classNames (optional).
 
-2. A file `script.js`:
-   - JavaScript logic to reverse the string and display the result **only when the button is clicked**.
-   - Show/hide the button based on input length.
+2. `script.js`:
+   - Add event listener to the input to toggle the button based on length.
+   - When button is clicked:
+     - Reverse the input string and show it inside the `<div>`.
+     - Clear previous result on new input.
+   - Use named functions.
+   - Use modern APIs (`textContent`, avoid deprecated `execCommand`).
 
-3. A file `prompts.md`:
-   - Include this exact prompt used to generate the project.
-
-4. A file `README.md`:
-   - Brief explanation of what the project does.
+3. `README.md`:
+   - Overview of what the app does.
    - Technologies used.
-   - Instructions to test it locally.
-   - State that it took 1 hour to complete.
-   - Mention best practices (e.g. external scripts, prompt documentation).
-   - Include `#FollowtheLIDR`.
+   - How to run it locally.
+   - Notes (e.g. time spent, assistant used).
 
-5. A `.gitignore` file:
-   - Add `.idea/` to exclude JetBrains IDE config.
+4. `prompts.md`:
+   - Include this exact prompt and note iterations if any.
 
-🧪 Output:
-- Return the full contents of all files clearly separated with filenames.
-- Make them ready for copy-paste into a new folder structure.
-- Explain step-by-step how to set it up locally and test it in a browser.
+### Output:
+Respond with all files in copy-pasteable format (clearly delimited).
+Use clear comments and keep the JS readable.
+
+Strict constraints:
+- Vanilla JS only.
+- No frameworks or build tools.
+- Modular, readable, and testable code.
+
+---
