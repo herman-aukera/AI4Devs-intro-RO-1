@@ -1,28 +1,30 @@
-# Reverse String - AI4Devs Project
+# Reverse String – AI4Devs Project
 
 ## Overview
-This is a web project completed for AI4Devs. It reverses any string typed into an input field when the user clicks a button.
+
+This is a small web project that reverses any string input by the user, using vanilla JavaScript. The "Reverse" button appears only when the input has more than 3 characters.
 
 ## Features
-- Reverses a string input using JavaScript
-- Button appears only when input has more than 3 characters
-- Output updates only after clicking the button
-- Clean HTML + separate `script.js`
+
+- Input validation: button appears after 3+ characters.
+- Reverses string and displays result on click.
+- Clean HTML + external script.
+- Modern JS syntax.
 
 ## Technologies
+
 - HTML5
-- JavaScript (external script)
-- Prompt Engineering (ChatGPT-4o used)
+- JavaScript (ES6+)
 
-## How to Use
-1. Open `index.html` in a browser.
-2. Type a string (e.g., “AI4Devs”).
-3. Click the button to see the reversed string.
+## How to Run
 
-## Time to Complete
-🕐 1 hour
+1. Clone the project or download the files.
+2. Open `index.html` in your browser.
+3. Type something and click "Reverse" to see the output.
 
 ## Notes
-Prompt used is in `prompts.md`.
 
-#FollowtheLIDR
+- Built with help from ChatGPT-4 using prompt engineering.
+- Task completed in ~1 hour.
+
+## #FollowtheLIDR
