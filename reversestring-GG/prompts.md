@@ -1,23 +1,34 @@
-You are an AI assistant helping me with a technical assignment from the AI4Devs program.
+# Prompt Used
 
-**Task**: ^[Create a simple HTML and JavaScript page that reverses the characters of an input string (e.g., "AI4Devs" → "sveD4IA").]({"attribution":{"attributableIndex":"392-1"}})
+You are a developer assistant. I'm working on a frontend coding challenge for the AI4Devs bootcamp.
 
-**Requirements**:
+🎯 Your task: Generate a full project folder containing:
 
-- ^[Use a basic HTML and JavaScript structure.]({"attribution":{"attributableIndex":"526-1"}})
-- ^[Provide a single input field for user text entry.]({"attribution":{"attributableIndex":"526-2"}})
-- ^[Include a button that, when clicked, triggers the reversal of the input string.]({"attribution":{"attributableIndex":"526-3"}})
-- ^[Display the reversed string on the page.]({"attribution":{"attributableIndex":"526-4"}})
-- ^[Create a `prompts.md` file containing this prompt.]({"attribution":{"attributableIndex":"526-5"}})
+1. A file `index.html`:
+   - With an input field to type a string.
+   - Linked to an external `script.js`.
+   - Includes a `<div>` to show the reversed string.
+   - A “Reverse” button that only appears when the input has more than 3 characters.
 
-**Bonus (Optional)**:
+2. A file `script.js`:
+   - JavaScript logic to reverse the string and display the result in real time.
+   - Show/hide the button based on input length.
 
-- ^[Only display the button when the input string has more than 3 characters.]({"attribution":{"attributableIndex":"832-1"}})
-- ^[Automatically reverse the string in real-time as the user types, without needing to click the button.]({"attribution":{"attributableIndex":"832-2"}})
+3. A file `prompts.md`:
+   - Include this exact prompt used to generate the project.
 
-**Output**:
+4. A file `README.md`:
+   - Brief explanation of what the project does.
+   - Technologies used.
+   - Instructions to test it locally.
+   - State that it took 1 hour to complete.
+   - Mention best practices (e.g. external scripts, prompt documentation).
+   - Include `#FollowtheLIDR`.
 
-- ^[Provide the complete `index.html` code with embedded JavaScript.]({"attribution":{"attributableIndex":"1041-1"}})
-- ^[Ensure the code is ready to run in a browser without additional setup.]({"attribution":{"attributableIndex":"1041-2"}})
+5. A `.gitignore` file:
+   - Add `.idea/` to exclude JetBrains IDE config.
 
-Please format your response using markdown for easy copying and pasting.
+🧪 Output:
+- Return the full contents of all files clearly separated with filenames.
+- Make them ready for copy-paste into a new folder structure.
+- Explain step-by-step how to set it up locally and test it in a browser.

@@ -27,34 +27,6 @@
   <button id="reverseBtn">Reverse</button>
   <div class="output" id="outputText"></div>
 
-  <script>
-    const input = document.getElementById('inputText');
-    const button = document.getElementById('reverseBtn');
-    const output = document.getElementById('outputText');
-
-    function reverseString(str) {
-      return str.split('').reverse().join('');
-    }
-
-    input.addEventListener('input', () => {
-      const text = input.value;
-
-      // Mostrar botón solo si hay más de 3 caracteres
-      if (text.length > 3) {
-        button.style.display = 'inline-block';
-      } else {
-        button.style.display = 'none';
-      }
-
-      // Actualizar en tiempo real
-      output.textContent = reverseString(text);
-    });
-
-    // Acción del botón (redundante por real-time update, pero requerido por specs)
-    button.addEventListener('click', () => {
-      const reversed = reverseString(input.value);
-      output.textContent = reversed;
-    });
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
